@@ -72,6 +72,9 @@ public class SandboxArreglos
      */
     public int getCantidadEnteros( )
     {
+    	if (arregloEnteros == null) {
+    		return 0;
+    	}
         return arregloEnteros.length;
     }
 
@@ -81,7 +84,7 @@ public class SandboxArreglos
      */
     public int getCantidadCadenas( )
     {
-    	if (arregloEnteros == null) {
+    	if (arregloCadenas == null) {
             return 0;
         }
 		return arregloCadenas.length;
