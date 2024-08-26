@@ -38,6 +38,7 @@ public class SandboxArreglos
     }
 
     /**
+     * 
      * Retorna una copia del arreglo de enteros, es decir un nuevo arreglo del mismo tamaño que contiene copias de los valores del arreglo original
      * @return Una copia del arreglo de enteros
      */
@@ -72,7 +73,7 @@ public class SandboxArreglos
      */
     public int getCantidadEnteros( )
     {
-    	if (arregloEnteros == null) {
+    	if (arregloEnteros = null) {
     		return 0;
     	}
         return arregloEnteros.length;
