@@ -88,7 +88,7 @@ public class SandboxArreglos
     	if (arregloCadenas == null) {
             return 0;
         }
-		return arregloCadenas.length;
+    	return arregloCadenas.length;
     }
 
     /**
